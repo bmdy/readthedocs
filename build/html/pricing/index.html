@@ -1,0 +1,258 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-CN" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>定价研究系列一 &mdash; bmdy&#39;s blog version1 文档</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="搜索" href="../search.html" />
+    <link rel="next" title="定价研究系列二" href="../pricing1/index.html" />
+    <link rel="prev" title="定价研究系列" href="../index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> bmdy's blog
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">定价研究系列一</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">定价评估方法</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id3">定价方法比较</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id4">整体方法</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../pricing1/index.html">定价研究系列二</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">bmdy's blog</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>定价研究系列一</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/pricing/index.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="id1">
+<h1>定价研究系列一<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
+<div class="section" id="id2">
+<h2>定价评估方法<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
+<p>首先，我们要来看定价问题的目标设定。从方法论层面，定价算法的目标设定大体可以分为两种。一种是在成本一定的情况下，最大化转化；另一种是在转化一定的情况下，最小化成本。自然地，对于定价算法的评估也就有两种，即在成本一定的情况下，比较转化和在转化一定的情况下，比较成本。</p>
+<p>再具体一些，对于固定转化或者成本，又分为按量和按率两种类型：（1）固定转化总量或者成本总量；（2）固定转化率或者某种形式的ROI（比如，转化人均成本，average cost per acquisition）。相应地，对应到我们的场景，有下面的四种评估方法。</p>
+<p>第一种，固定核销权益总成本，即控制模型组和对照组核销的权益总成本基本一致，比较金额转化总量或者金额转化率。
+第二种，固定金额转化总量，即控制模型组和对照组转化的总金额基本一致，比较核销的权益总成本或者ROI。
+第三种，固定ROI，即控制模型组和对照组转化的ROI基本一致，比较金额转化率。
+第四种，固定金额转化率，即控制模型组和对照组的金额转化率基本一致，比较ROI。</p>
+<p>相对来讲，固定总量的方式更难操作一些，而固定比率的方式则要容易实现。但是固定总量的方式在很多的评估中也是比较常见的。比如，对于连续月度的定价目标设定，很多时候会固定月度的转化或者成本，这个时候的评估就要用固定总量的方式；同样地，不同财年的定价评估也很可能会采用这种方式。</p>
+<p>对于固定ROI和金额转化率两种方式，直观上ROI更好调控一些，金额转化率要更难控制。但其实两种方式很类似，都是通过调控对照组设定一个锚点。这里要强调一下，我们之前对对照组的理解和使用有一些不够充分。首先，对照组是可调的，不是固定不动的。一般来说，对照组通常设定为相对容易调控的费率组，比如，随机费率组。我们可以通过调控对照组，来获得一个合适的ROI或者金额转化率，以作为定价评估的锚点。第二，对照组不需要是完全的随机费率组。我们可以通过业务逻辑来对对照组做一些处理，比如，像前面费率十实验中拿掉特定的费率。这样的对照组可以理解为一种精调的业务策略。完全随机费率组的主要作用其实还是用于收集训练数据。</p>
+<div class="section" id="id3">
+<h3>定价方法比较<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h3>
+<div class="section" id="id4">
+<h4>整体方法<a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h4>
+<p>这是一个<strong>段落</strong></p>
+<p>我们给出了一篇方向的工作处理</p>
+<table border="1" class="docutils">
+<thead>
+<tr>
+<th align="center">作者</th>
+<th align="center">朝代</th>
+<th align="center">评分</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">李白</td>
+<td align="center">唐</td>
+<td align="center">100</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../pricing1/index.html" class="btn btn-neutral float-right" title="定价研究系列二" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../index.html" class="btn btn-neutral float-left" title="定价研究系列" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; 版权所有 2020, bmdy
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
